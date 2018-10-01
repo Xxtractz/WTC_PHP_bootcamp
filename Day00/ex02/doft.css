@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #505050;
+}
+
+#container {
+    width: 1800px;
+    height: 200px;
+}
+
+#header {
+    border-radius: 25px;
+    background: #909090;
+    box-shadow: 8px 8px 5px black;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#imghearleft {
+    height: 125px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#imgclose {
+    height: 30px;
+    left: 20px;
+    position: relative;
+}
+
+#imgloupe {
+    height: 150px;
+    margin-bottom: -35px;
+    margin-left: 590px;
+}
+
+#imgreload {
+    top: 20px;
+    height: 30px;
+    right: 315px;
+    position: absolute;
+}
