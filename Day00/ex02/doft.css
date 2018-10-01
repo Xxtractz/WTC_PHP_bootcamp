@@ -6,41 +6,81 @@ body {
     background-color: #505050;
 }
 
-#container {
-    width: 1800px;
-    height: 200px;
-}
-
-#header {
-    border-radius: 25px;
-    background: #909090;
-    box-shadow: 8px 8px 5px black;
-    padding: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#imghearleft {
-    height: 125px;
-    margin-top: 5px;
-    margin-left: 10px;
-}
-
-#imgclose {
-    height: 30px;
-    left: 20px;
+#header
+{
+    width: 75%;
+    height: 15%;
     position: relative;
 }
 
-#imgloupe {
-    height: 150px;
-    margin-bottom: -35px;
-    margin-left: 590px;
+#content
+{
+    display: flex;
+    width: 75%;
+    margin: auto;
 }
 
-#imgreload {
-    top: 20px;
-    height: 30px;
-    right: 315px;
+#left
+{
+    margin: 10px;
+    flex: 1;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 3%;
+    max-width: 15%;
+    position: relative;
+}
+
+#cluster
+{
+    margin: 5px;
+    flex: 4;
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+.container 
+{
+    background: #909090;
+    border: transparent;
+    box-shadow: 8px 8px 5px black;
+    padding: 10px;
+    margin-top: 20px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+img
+{
+    margin: 2px;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.reload
+{
+    width: 15px;
+    height: 15px;
+    top: 8px;
+    right: 8px;
+    position: absolute;
+}
+.close{
+    width: 15px;
+    height: 15px;
+    bottom: 3px;
+    right: 8px;
+    position: absolute;
+}
+
+.loupe
+{
+    width: 300px;
+    height: 300px;
+    top : 13px;
+    right: -35px;
     position: absolute;
 }
