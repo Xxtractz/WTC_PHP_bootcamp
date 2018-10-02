@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+.chem {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    margin: auto;
+}
+
+.nonmetal {
+    background: #59eaff;
+}
+
+.halogen {
+    background: #e6e6ff;
+}
+
+.noblegas {
+    background: #b3b3ff;
+}
+
+.semimetal {
+    background: #66cfff;
+}
+
+.trans {
+    background: #ffff99;
+}
+
+.act {
+    background: #ff6666;
+}
+
+.lan {
+    background: #ffb3b3;
+}
+
+.alkaline {
+    background: #ffbb33;
+}
+
+.alkali {
+    background: #ff9999;
+}
+
+.basic {
+    background: #44cc00;
+}
+
+.num {
+    text-align: left;
+    font-size: 15px;
+    margin: auto;
+}
+
+.mass {
+    text-align: right;
+    font-size: 15px;
+    margin: auto;
+}
+
+.td {
+    color: white;
+    border: 1px solid white;
+}
+
+td {
+    width: 75px;
+    height: 75px;
+}
+
+img {
+    height: auto;
+    width: 150px;
+    float: center;
+    padding: 5px;
+}
