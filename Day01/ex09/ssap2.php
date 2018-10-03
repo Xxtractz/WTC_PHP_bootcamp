@@ -4,11 +4,12 @@ $newstr = [];
 unset($argv[0]);
 foreach ($argv as $arr)
     $newstr = array_merge($newstr, explode(" ", $arr));
-natcasesort($newstr);
+usort($newstr);
+
 foreach ($newstr as $v)
     if(ctype_alpha($av[0]))
         echo $v . "\n";
-sort($newstr);
+
 foreach ($newstr as $v)
     if (is_numeric($av))
     echo $v . "\n";
