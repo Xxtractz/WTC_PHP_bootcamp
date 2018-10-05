@@ -1,4 +1,4 @@
 <?php
-    header("Content-Type: application/pdf");
+    header("Content-Type: text/plain");
 ?>
 <html><body>Hello</body></html>
