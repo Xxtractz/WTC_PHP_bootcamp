@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+ html,body
+ {
+     height: 100%;
+     width: 100%;
+ }
+ /*
+-----------------------------------------------------------------------------------------------------------------------------
+                                                         Start Header Section
+-----------------------------------------------------------------------------------------------------------------------------
+ */
+ .header
+ {
+     width: 100%;
+     background-color: #dedfe4;
+     height: 100px;
+}
+.logo
+{
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+.logo img
+{
+    width: 100%;
+    height: 60px;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+.link
+{
+    width: 80%;
+    float: left;
+}
+.link ul
+{
+    list-style-type: none;
+    float: right;
+    margin-right: 50px;
+}
+.link ul li
+{
+    float: left;
+    margin-left:10px ;
+    line-height: 30px;
+}
+.link ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.search input[type=search]
+{
+    width: 40%;
+    border-width: 0px;
+    outline: none;
+    border-radius: 7px;
+    height: 40px;
+    padding-left: 10px;
+}
+.search input[type=submit]
+{
+    background-color: #5270ff;
+    width: 10%;
+    border-width: 0px;
+    outline: none;
+    border-radius: 7px;
+    height: 40px;
+    margin-left: -10px;
+}
+.search button
+{
+    background-color: #5270ff;
+    width: 5%;
+    border-width: 0px;
+    outline: none;
+    border-radius: 7px;
+    height: 40px;
+    float: right;
+    margin-right: 40px;
+}
+/*
+-----------------------------------------------------------------------------------------------------------------------------
+                                                         End Header Section
+-----------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------
+                                                         Start content Section
+-----------------------------------------------------------------------------------------------------------------------------
+*/
+
+.content
+{
+    width: 100%;
+    min-height: 80%;
+}
+/*
+-----------------------------------------------------------------------------------------------------------------------------
+                                                         end content Section
+-----------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------
+                                                         Start footer Section
+-----------------------------------------------------------------------------------------------------------------------------
+*/
+#footer
+ {
+     width: 100%;
+     background-color: #949598;
+     height: 100px;
+}
+.footer  ul
+{
+    list-style-type: none;
+    float: left;
+    margin-right: 50px;
+}
+.footer  ul li
+{
+    float: left;
+    margin-left:10px ;
+    line-height: 30px;
+}
+.footer ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+/*
+-----------------------------------------------------------------------------------------------------------------------------
+                                                         End footer Section
+-----------------------------------------------------------------------------------------------------------------------------
+ */

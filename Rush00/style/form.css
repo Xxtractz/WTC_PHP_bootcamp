@@ -1,0 +1,84 @@
+.form
+{
+    padding-left: 30%;
+    padding-right: 30%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-content: center;
+
+}
+
+.form input[type=text]
+{
+    
+    min-width: 75%;
+    border-width: 1px;
+    outline: none;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 10px;
+}
+
+.form input[type=email]
+{
+    
+    min-width: 75%;
+    border-width: 1px;
+    outline: none;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 10px;
+}
+
+.form input[type=password]
+{
+    
+    min-width: 75%;
+    border-width: 1px;
+    outline: none;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.form input[type=tel]
+{
+    
+    min-width: 50%;
+    border-width: 1px;
+    outline: none;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 10px;
+}
+
+.form input[type=submit]
+{
+    background-color: #ff0000;
+    min-width: 7%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    border-width: 1px;
+    outline: none;
+    border-radius: 7px;
+    height: 40px;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 33%;
+    border-color: #5270ff;
+}
+
+input[type=submit]:hover {
+    background-color: #5270ff;
+    border-color: #ff0000;
+}
